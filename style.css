@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #56CD42;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#pesquisar {
+    color: #56CD42;
+}
+
+main {
+    background: url('./img/FUNDO_3.jpg') no-repeat;
+    background-position: right 50% bottom 0%;
+    background-size: contain;
+}
+
+
+/* MEDIA QUERY */
+/* TELAS ATÉ 992PX */
+@media (min-width: 992px) {
+    main {
+        padding-bottom: 750px;
+    }
+}
+
+/* TELAS ATÉ 1400 */
+@media (min-width: 1400px) {
+    main {
+        padding-bottom: 1000px;
+    }
+}
+
+footer {
+    background-color: #105718;
+    height: 300px;
+    width: 100%;
+    color: #56CD42;
+    padding: 5%;
+}
+
+.contadorPersonagens {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desenvolvido {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.contadorPersonagens span {
+    color: #ffffff;
+}
+
+
+footer strong {
+    color: #ffffff;
+}
+
+/* CARD */
+
+.card {
+    height: 250px;
+
+}
+
+.conteudo-card>p {
+    margin: 0 !important;
+    height: min-content;
+}
+
+.card img {
+    width: 100%;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.bg-image {
+    background: no-repeat url("https://rickandmortyapi.com/api/character/avatar/353.jpeg");
+}
+
+/* STATUS */
+.status{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* Bolinha */
+.statusCor {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #105718;
+    margin-top: 7px;
+}
+
+/* Vivo */
+.statusCor Vivo{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #105718;
+    margin-top: 7px;
+}
+
+/* Morto */
+.statusCorMorto{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+    margin-top: 7px;
+}
+/* Desconhecido */
+.statusCorDesconhecido{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: grey;
+    margin-top: 7px;
+}
+
+
+/* PARÁGRAFOS */
+/* Vivo (status) - Humano (espécie) */
+.corP {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+/* Última localização conhecida: | Visto a última vez em: */
+.card-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}
+
+.cardTextP {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
